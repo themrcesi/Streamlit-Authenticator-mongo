@@ -48,7 +48,7 @@ cookie:
 
     doc = {
         'username':'Johnny',
-        'password': stauth.Hasher(['dog']).generate()[0]
+        'password': stauth.Hasher(['dog']).generate()[0],
         'email': 'johnwick@wicked.com',
         'name': 'John Wick'
     }
